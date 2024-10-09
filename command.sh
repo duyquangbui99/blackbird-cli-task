@@ -34,6 +34,9 @@ gh pr create --base master --head update_logo --title "Update logo and link" --b
 # Step 8: Merge the PR using GitHub CLI
 gh pr merge --squash
 
+#My github repo: 
+https://github.com/duyquangbui99/blackbird-cli-task
+
 
 
 
