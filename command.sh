@@ -23,6 +23,18 @@ git checkout -b update_logo
 #     Learn more about DirtMate
 # </a>
 
+# Step 6: Commit and Push the Changes
+git add .
+git commit -m "Updated logo and link"
+git push origin update_logo
+
+# Step 7: Create a Pull Request (PR) using GitHub CLI
+gh pr create --base master --head update_logo --title "Update logo and link" --body "Replaced logo and updated the link."
+
+# Step 8: Merge the PR using GitHub CLI
+gh pr merge --squash
+
+
 
 
 
